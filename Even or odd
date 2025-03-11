@@ -1,0 +1,14 @@
+num = int(input("Number?: "))
+
+if num > 0:
+    if num % 2 == 0:
+        print(f"{num} is a positive even number")
+    else:
+        print(f"{num} is a positive odd number")
+elif num < 0:
+    if num % 2 == 0:
+        print(f"{-num} is a negative even number")
+    else:
+        print(f"{-num} is a negative odd number ")
+else:
+    print("zero?")
